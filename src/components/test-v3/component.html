@@ -1,0 +1,31 @@
+<p-card>
+	<div class="ovfeumlk">
+		<div class="ehrmfebw">
+			<p-inputSwitch
+				[ngModel]="active$ | async"
+				(ngModelChange)="active$.next($event)"
+			/>
+		</div>
+		<div class="tlmuegwa">
+			<p-button
+				icon="pi pi-sort-alt"
+				styleClass="p-button-rounded"
+				(click)="swap()"
+			/>
+			<div class="lkqjkawf">
+				<div>
+					<pre>n<sub>1</sub> = {{ n1$ | async }}</pre>
+				</div>
+				<div>
+					<pre>n<sub>2</sub> = {{ n2$ | async  }}</pre>
+				</div>
+			</div>
+		</div>
+		<div class="kwwkncyf">
+			<div class="bayqskth">
+				<pre>n<sub>1</sub> + n<sub>2</sub> = {{ sum$ | async  }}</pre>
+			</div>
+			<p-tag [value]="(sumEven$ | async)  ? 'even' : 'odd'" />
+		</div>
+	</div>
+</p-card>

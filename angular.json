@@ -53,7 +53,7 @@
 					}
 				}
 			},
-			"prefix": "my",
+			"prefix": "app",
 			"projectType": "application",
 			"root": ".",
 			"schematics": {

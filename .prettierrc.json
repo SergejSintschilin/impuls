@@ -1,7 +1,6 @@
 {
 	"bracketSpacing": false,
 	"htmlWhitespaceSensitivity": "strict",
-	"printWidth": 120,
 	"singleAttributePerLine": true,
 	"singleQuote": true,
 	"useTabs": true,

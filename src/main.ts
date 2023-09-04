@@ -2,8 +2,8 @@ import {importProvidersFrom} from '@angular/core';
 import {BrowserModule, bootstrapApplication} from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
-import {MyRootComponent} from '@/components/root';
+import {RootComponent} from '@/components/root';
 
-bootstrapApplication(MyRootComponent, {
+bootstrapApplication(RootComponent, {
 	providers: [importProvidersFrom([BrowserModule, BrowserAnimationsModule])],
 }).catch((err) => console.error(err));
