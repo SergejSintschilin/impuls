@@ -1,0 +1,9 @@
+{
+	"bracketSpacing": false,
+	"htmlWhitespaceSensitivity": "strict",
+	"printWidth": 120,
+	"singleAttributePerLine": true,
+	"singleQuote": true,
+	"useTabs": true,
+	"plugins": ["prettier-plugin-organize-imports"]
+}
