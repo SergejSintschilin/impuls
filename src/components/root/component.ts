@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {PrimeNGConfig} from 'primeng/api';
 
-import {TestComponent} from '@/components/test-v2';
+import {TestComponent} from '@/components/test';
 
 @Component({
 	imports: [TestComponent],

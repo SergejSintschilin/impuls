@@ -34,7 +34,7 @@
 						"polyfills": ["zone.js"],
 						"preserveSymlinks": true,
 						"styles": ["./src/styles.scss"],
-						"tsConfig": "./tsconfig.json"
+						"tsConfig": "./src/tsconfig.json"
 					}
 				},
 				"serve": {
