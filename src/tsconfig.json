@@ -1,10 +1,16 @@
 {
+	"angularCompilerOptions": {
+		"enableI18nLegacyMessageIdFormat": false,
+		"strictInjectionParameters": true,
+		"strictInputAccessModifiers": true,
+		"strictTemplates": true
+	},
 	"compilerOptions": {
 		"baseUrl": ".",
+		"lib": ["DOM"],
 		"paths": {
 			"@/*": ["./*"]
 		}
 	},
-	"files": ["./main.ts"],
 	"extends": "../tsconfig.json"
 }
